@@ -1,0 +1,175 @@
+.blog-hed h1{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+width: fit-content;
+
+height: 69px;
+margin: auto;
+/* New Lenear */
+margin-top: 4rem;
+background: linear-gradient(92.48deg, #D80027 2.08%, #FB9E3C 117.25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.gpt3__blog{
+    margin-bottom: 2rem;
+}
+.teams img{
+
+border-radius: 50%;
+background: #86FFFB;
+}
+.teams{
+    margin: auto;
+       width: 218px;
+height: 218px;
+text-align: center;
+}
+.team{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 31px;
+grid-row-gap: 0px;
+margin: auto;
+ margin-bottom: 5rem;
+ max-width: 1500px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+.teams h5{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+height: 10.38px;
+color: #000000;
+width: fit-content;
+margin: auto;
+}
+
+.teams p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+height: 18.87px;
+width: fit-content;
+color: #000000;
+margin: auto;
+}
+
+
+.dic{
+    width: 90%;
+    max-width: 2000px;
+height: 287px;
+margin: auto;
+margin-top: 15rem;
+
+/* New Lenear */
+padding-top: 5rem;
+background: linear-gradient(92.48deg, #D80027 2.08%, #FB9E3C 117.25%);
+border-radius: 12px;
+}
+
+.dic h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 68px;
+width: fit-content;
+/* identical to box height, or 121% */
+height: 68px;
+display: flex;
+align-items: center;
+text-align: center;
+margin: auto;
+color: #FFFFFF;
+
+}
+
+.dic button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+margin: auto;
+width: 142px;
+height: 50px;
+margin-top: 3rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+cursor: pointer;
+color: #FFFFFF;
+/* Black */
+
+background: #202020;
+border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .gpt3__blog{
+        padding: 1rem;
+    }
+  .team{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 9px;
+grid-row-gap: 9px;
+   
+
+  }
+  .dic h1{
+    line-height: normal;
+  }
+  .teams{
+    margin-bottom: 3rem;
+  }
+.dic h1 {
+    font-size: 20px;
+    padding: 1rem;
+    margin-top: -2.4rem;
+}
+.dic{
+    margin-top: 5rem;
+width: 100%;
+margin: auto;
+height: 200px;
+}
+
+.teams h5 {
+    margin-top: 1rem;
+}
+.dic button {
+  margin-top: 0;
+}
+
+}

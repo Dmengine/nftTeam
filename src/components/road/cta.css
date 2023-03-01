@@ -1,0 +1,79 @@
+.rod h1{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 82px;
+/* or 204% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* New Lenear */
+margin: auto;
+width: fit-content;
+height: 69px;
+background: linear-gradient(92.48deg, #D80027 2.08%, #FB9E3C 117.25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+margin-top: 5rem;
+margin-bottom: 4rem;
+}
+div .road_big{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 29% */
+width: fit-content;
+height: fit-content;
+color: #000000;
+
+}
+div .fist{
+    margin-top: -2rem;
+}
+.road_small{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: normal;
+/* identical to box height, or 42% */
+width: fit-content;
+height: fit-content;
+color: #000000;
+
+}
+.rode{
+    margin: auto;
+    width: fit-content;
+    margin-top: 3rem;
+}
+@media screen and (max-width: 1000px) {
+   
+    div .road_big{
+       font-size: 20px;
+      font-weight: 900;
+      
+    }
+    div .road_small{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+   
+    div .road_big{
+       font-size: 16px;
+      font-weight: 900;
+    }
+    div .road_small{
+        font-size: 12px;
+    }
+}
